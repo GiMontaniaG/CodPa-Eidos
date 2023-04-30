@@ -1,0 +1,59 @@
+/* 1- Aplicar "reset" modificando etos valores para todos los elementos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+body{
+    font-family: arial, sans-serif;
+}
+
+ /*2- Aplicar al header un padding top/bottom de 40px y left/right de 20px*/
+header{
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* 3- Aplicar al h1 un margin-botton de 20px */
+h1{
+    margin-bottom:  20px;
+}
+*/
+
+/* 4-Aplicar un max-widht de 1200px al main*/
+
+ /*5-Centrar el main con margin: auto*/
+ main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/*6- Aplicar a las section un padding top/bottom de 40px y left/right de 20px */
+section{
+    padding: 40px 20px;
+} */
+
+/*7- Aplicar a los p un margin top y bottom de 10 px */
+p{
+    margin: 10px 0;
+}
+section .bg-lila{
+    margin: 20px;
+}
+
+/* 8- Al p con class="destacado" aplicar propiedad border y un padding */
+p.importante{
+    border: 1px solid #ff0000;
+    padding: 8px;
+}
+
+.bg-celeste{
+    background-color: #e0ffff;
+}
+
+.bg-lila{
+    background-color: rgb(244, 217, 247);
+
+}
+
