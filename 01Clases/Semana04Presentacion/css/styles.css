@@ -1,0 +1,53 @@
+p{
+    color:bisque;
+    font-size: 20px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+#lista{
+    color: bisque;
+}
+
+.img-perfil{
+    width: 270px;
+	height: 270px;
+    border-radius: 100%;
+    padding: 6rem 2rem;
+}
+
+body{
+    background-color: #33475b;
+} 
+
+#link{
+    color: coral;
+}
+
+li{
+    font-size: 18px;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.7); /*Color de fondo*/
+    width: 100%; /*Ancho*/
+    position: fixed; /*Posición fija*/
+    z-index: 100;
+}
+
+nav{
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
